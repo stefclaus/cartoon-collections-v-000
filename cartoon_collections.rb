@@ -19,8 +19,5 @@ def find_the_cheese(array)
   if array.find_all {|food| cheese_types.include?(food) }.join(" ") == ""
     return nil 
   else array.find_all {|food| cheese_types.include?(food) }.join(" ")
-  end 
-=======
-  array.find_all {|food| cheese_types.include?(food) }
->>>>>>> 6a2cfdf8bf13fad77ea1f3c9d0bef0b3c529cb3e
+  end   array.find_all {|food| cheese_types.include?(food) }
 end
